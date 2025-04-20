@@ -1,20 +1,20 @@
-*{
-    margin: 0;
-    padding: 0;
-    border: border-box;
-}
 
 body{
+    margin: 0 auto;
+    width: 314px;
     background-color: #898989;
 }
 
 .hero {
-}
-.container_hero {
+
 }
 .menu_header {
 }
+.header_nav {
+}
 .menu_header_burger {
+}
+.container_hero {
 }
 .learn-more {
 }
@@ -27,9 +27,6 @@ body{
 .travel-section-cards {
 }
 .explore_our_secrets {
-    max-width: ;
-    height: ;
-    background-image:url(./img.background/ifan-bima-B04Xpnu5JQ4-unsplash\ 1.png)
 }
 .conteiner {
 }
@@ -42,12 +39,6 @@ body{
 .map {
 }
 .Vid5 {
-    min-width: ;
-    height: ;
-    background-image: url(./img.background/hugo-matilla-EFuCATqfblI-unsplash\ 1.png);
-    background-size: cover;
-    background-position: center;
-
 }
 .cotainer {
 }
@@ -56,7 +47,6 @@ body{
 .video5 {
 }
 .photo_section {
-    background-color: #fff;
 }
 .photo_gallery-title {
 }
@@ -67,7 +57,6 @@ body{
 .conteiner_photos {
 }
 .getting_there {
-    background-color: #DCE8F2;
 }
 .conteiner2 {
 }
@@ -82,7 +71,6 @@ body{
 .third {
 }
 .footer {
-    background-color: #010A20;
 }
 .conteiner_footer {
 }
