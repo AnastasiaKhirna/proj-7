@@ -1,3 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
 body{
     background-color: #898989;
+}
+
+.hero {
+}
+.container_hero {
+}
+.menu_header {
+}
+.menu_header_burger {
+}
+.learn-more {
+}
+.title_here {
+}
+.vodeo-hero {
+}
+.articles {
+}
+.travel-section-cards {
+}
+.explore_our_secrets {
+    max-width: ;
+    height: ;
+    background-image:url(./img.background/ifan-bima-B04Xpnu5JQ4-unsplash\ 1.png)
+}
+.conteiner {
+}
+.photos {
+}
+.dot {
+}
+.count {
+}
+.map {
+}
+.Vid5 {
+    min-width: ;
+    height: ;
+    background-image: url(./img.background/hugo-matilla-EFuCATqfblI-unsplash\ 1.png);
+    background-size: cover;
+    background-position: center;
+
+}
+.cotainer {
+}
+.video5-title {
+}
+.video5 {
+}
+.photo_section {
+    background-color: #fff;
+}
+.photo_gallery-title {
+}
+.photo_gallery {
+}
+.info {
+}
+.conteiner_photos {
+}
+.getting_there {
+    background-color: #DCE8F2;
+}
+.conteiner2 {
+}
+.first {
+}
+.get-here-numbers {
+}
+.second {
+}
+.third_photo {
+}
+.third {
+}
+.footer {
+    background-color: #010A20;
+}
+.conteiner_footer {
+}
+.footer_about {
+}
+.text {
+}
+.container_fot {
 }
