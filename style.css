@@ -1,82 +1,110 @@
 
 body{
     margin: 0 auto;
-    width: 314px;
+    max-width: 375px;
     background-color: #898989;
 }
 
 .hero {
+    padding-top: 48px;
+    min-width: 314px;
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.31), rgba(0,0,0,0.29)),
+    url(./img.background/bg_s1.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    }
+
+
+ul {list-style-type: none;}
+
+.btn_trevelling{
+    color: #ffffff;
+    display: flex;
+    width: 315px;
+    height: 59px;
+    padding: 10.202px;
+    justify-content: center;
+    align-items: center;
+    gap: 5.101px;
+    flex-shrink: 0;
+    border-radius: 107.631px;
+    background: #DD2242;
+}
+
+.menu_header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.header_nav {
+    display: inline;
+    padding: 10px;
+}
+.nav{
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+
+
+.menu_header_burger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 25px;
+}
+.container_hero {  
+    margin: 30px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 58.152px;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.bg_black{
 
 }
-.menu_header {
+
+.title_here_count_item{
+    list-style-type: none;
+    color: #939393;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    line-height: 0.4; 
+    letter-spacing: 0.5px;
 }
-.header_nav {
+
+.title_here_count_item_numders{
+    color: #DD2242;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
 }
-.menu_header_burger {
+.title_here_count_item_text{
+    color: #FFF;
+    font-family: "DM Sans";
+    font-size: 26.409px;
+    font-weight: 700;
+    line-height: 1.5;
 }
-.container_hero {
-}
-.learn-more {
-}
-.title_here {
-}
-.vodeo-hero {
-}
-.articles {
-}
-.travel-section-cards {
-}
-.explore_our_secrets {
-}
-.conteiner {
-}
-.photos {
-}
-.dot {
-}
-.count {
-}
-.map {
-}
-.Vid5 {
-}
-.cotainer {
-}
-.video5-title {
-}
-.video5 {
-}
-.photo_section {
-}
-.photo_gallery-title {
-}
-.photo_gallery {
-}
-.info {
-}
-.conteiner_photos {
-}
-.getting_there {
-}
-.conteiner2 {
-}
-.first {
-}
-.get-here-numbers {
-}
-.second {
-}
-.third_photo {
-}
-.third {
-}
-.footer {
-}
-.conteiner_footer {
-}
-.footer_about {
-}
-.text {
-}
-.container_fot {
+
+
+.h1_hero_title{
+    width: 314px;
+    height: 126px;
+    flex-shrink: 0;
+color: #FFF;
+font-family: "Roboto";
+font-size: 58.152px;
+font-style: normal;
+font-weight: 900;
+line-height: 1.2;
+text-transform: uppercase;
 }
