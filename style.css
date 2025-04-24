@@ -2,7 +2,6 @@
 body{
     margin: 0 auto;
     max-width: 375px;
-    background-color: #898989;
 }
 
 .hero {
@@ -16,26 +15,33 @@ body{
     background-position-y: center;
     }
 
-
 ul {list-style-type: none;}
 
 .btn_trevelling{
-    color: #ffffff;
+    margin: 8px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: "DM Sans";
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5;
     display: flex;
     width: 315px;
     height: 59px;
-    padding: 10.202px;
+    padding: 10px;
     justify-content: center;
     align-items: center;
-    gap: 5.101px;
-    flex-shrink: 0;
-    border-radius: 107.631px;
+    border: 0;
+    border-radius: 107px;
     background: #DD2242;
+
+
 }
 
 .menu_header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 0 30px;
 }
 
@@ -47,6 +53,9 @@ ul {list-style-type: none;}
     display: flex;
     justify-content: end;
     flex-wrap: wrap;
+}
+.nav_item{
+    padding: 15px;
 }
 
 
@@ -66,13 +75,10 @@ ul {list-style-type: none;}
     line-height: 1.5;
 }
 
-.bg_black{
-
-}
-
 .title_here_count_item{
+    margin: 16px;
     list-style-type: none;
-    color: #939393;
+    color: #FFF;
     font-family: "DM Sans";
     font-size: 16px;
     font-style: normal;
@@ -80,7 +86,13 @@ ul {list-style-type: none;}
     letter-spacing: 0.5px;
 }
 
+.title_here_count{
+    margin-top: 89px;
+}
+
+
 .title_here_count_item_numders{
+    margin: 4px;
     color: #DD2242;
     font-family: "Roboto";
     font-size: 16px;
@@ -88,23 +100,40 @@ ul {list-style-type: none;}
     text-transform: uppercase;
 }
 .title_here_count_item_text{
-    color: #FFF;
+    color: #939393;
     font-family: "DM Sans";
-    font-size: 26.409px;
+    font-size: 16px;
     font-weight: 700;
     line-height: 1.5;
+    font-feature-settings: 'liga' off, 'clig' off;
+    letter-spacing: 0.5px;
 }
 
+.title_here_count_item_title{
+    margin: 4px;
+}
 
 .h1_hero_title{
+    margin: 10px;
     width: 314px;
     height: 126px;
     flex-shrink: 0;
-color: #FFF;
-font-family: "Roboto";
-font-size: 58.152px;
-font-style: normal;
-font-weight: 900;
-line-height: 1.2;
-text-transform: uppercase;
+    color: #FFF;
+    font-family: "Roboto";
+    font-size: 58.152px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1.2;
+    text-transform: uppercase;
 }
+.bg_black{
+    width: 314px;
+    height: 472px;
+    opacity: 0.6;
+    background: #000;
+
+}
+
+
+
+
