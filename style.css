@@ -76,7 +76,11 @@ ul {list-style-type: none;}
 }
 
 .title_here_count_item{
-    margin: 16px;
+    max-width: 210px;
+    align-items: center;
+    height: 115px;
+    border: 1px solid #000;
+    margin: 32px;
     list-style-type: none;
     color: #FFF;
     font-family: "DM Sans";
@@ -92,7 +96,10 @@ ul {list-style-type: none;}
 
 
 .title_here_count_item_numders{
+    width: 32.017px;
+    height: 19px;
     margin: 4px;
+    padding: 8px;
     color: #DD2242;
     font-family: "Roboto";
     font-size: 16px;
@@ -131,8 +138,32 @@ ul {list-style-type: none;}
     height: 472px;
     opacity: 0.6;
     background: #000;
-
 }
+
+.photo_section{
+    width: 375px;
+    height: 752px;
+    flex-shrink: 0;
+    background: #FFF;
+    width: fit-content;
+}
+
+.conteiner_photos{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+}
+
+.photo_gallery_ppl { grid-area: 1 / 1 / 4 / 3; }
+.photo_gallery_ocean { grid-area: 4 / 1 / 5 / 3; }
+.photo_gallery_volcano { grid-area: 5 / 1 / 7 / 3; }
+.photo_gallery_mount { grid-area: 1 / 3 / 2 / 5; }
+.photo_gallery_man { grid-area: 2 / 3 / 5 / 5; }
+.photo_gallery_sky { grid-area: 5 / 3 / 7 / 5; }
+
+
 
 
 
