@@ -4,11 +4,6 @@ body{
     max-width: 375px;
 }
 
-.a{
-    text-decoration: none;
-    color: inherit;
-}
-
 .hero {
     padding-top: 48px;
     min-width: 314px;
@@ -146,6 +141,9 @@ ul {list-style-type: none;}
 }
 
 
+
+
+
 .articles {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -165,7 +163,7 @@ ul {list-style-type: none;}
 .travel-section-cards li {
     display: flex;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 100px ;
     gap: 50px;
     flex-wrap: wrap;
 }
@@ -173,8 +171,6 @@ ul {list-style-type: none;}
 .travel-section-cards li:nth-child(even) {
     flex-direction: row-reverse;
 }
-
-
 
 
 .travel-section-cards img {
@@ -214,7 +210,7 @@ ul {list-style-type: none;}
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: - 0.3s;
 }
 
 .learn-more:hover {
@@ -237,6 +233,77 @@ ul {list-style-type: none;}
         max-width: 100%;
     }
 }
+
+
+
+
+
+.Vid5{
+    margin-top: 83px;
+    width: 375px;
+    height: 1451px;
+    background-image: url(./img.background/hugo-matilla-EFuCATqfblI-unsplash\ 1.png);
+    background-color: #010A20;
+}
+
+.cotainer_video5{
+    margin-top: 80px;
+}
+
+.video5{
+    display: flex;
+    justify-content: center;
+}
+
+.video5-title h2 {
+    color:#FFF;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.15;
+}
+
+.cotainer_video5_photo_main{
+    margin: 20px auto;
+}
+
+.cotainer_video5 h3{
+    margin: 5px;
+    color:  #FFF;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.video_list_item p{
+    margin: 4px;
+    opacity: 0.7;
+}
+
+.cotainer_video5{
+    margin: 31px;
+    color: #FFF;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+
+}
+
+.video_list_item{
+    margin: 20px;
+    height: 192;
+    border-radius: 10px;
+}
+
+
+
+
+
 
 .photo_section{
     width: 375px;
@@ -291,32 +358,30 @@ ul {list-style-type: none;}
 .photo_gallery_man { grid-area: 2 / 2 / 5 / 3; }
 .photo_gallery_sky { grid-area: 5 / 2 / 7 / 3; }
 
-.Vid5{
-    width: 375px;
-    height: 723px;
-    background-color: #010A20;
-    opacity: 0.8;
-}
 
-.cotainer_video5_photo{
-    width: 314;
-    height: 176;
-    top: 5953px;
-    left: 30px;
-    border-radius: 5px;
-    
-}
 
-.cotainer_video5{
-    margin: 30px;
 
-}
+
+
+
+
+
 
 .footer{
     width: 375px;
     height: 723px;
     flex-shrink: 0;
     background: #010A20;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer_about_item_icons{
+    width: 189.772px;
+    height: 30.987px;
 }
 
 .footer_about{
@@ -326,5 +391,4 @@ ul {list-style-type: none;}
     justify-content: center;
     align-items: center;
     gap: 36px;
-    flex-shrink: 0;    
 }
