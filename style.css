@@ -4,6 +4,11 @@ body{
     max-width: 375px;
 }
 
+.a{
+    text-decoration: none;
+    color: inherit;
+}
+
 .hero {
     padding-top: 48px;
     min-width: 314px;
@@ -140,6 +145,99 @@ ul {list-style-type: none;}
     background: #000;
 }
 
+
+.articles {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0b1d30;
+    color: #ffffff;
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.travel-section-cards ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.travel-section-cards li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.travel-section-cards li:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+
+
+
+.travel-section-cards img {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+}
+
+.travel-section-cards h2 {
+    text-align: left;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.travel-section-cards p {
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #cbd5e1;
+    max-width: 500px;
+}
+
+.learn-more {
+    display: flex;
+    width: 314px;
+    height: 72px;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 12px 24px;
+    background-color: #ff385c;
+    color: #fff;
+    border: none;
+    border-radius:32px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.learn-more:hover {
+    background-color: #e62e50;
+}
+
+@media (max-width: 1920px) {  
+    .travel-section-cards li {
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .travel-section-cards img {
+        width: 100%;
+        max-width: 1920px;
+    }
+
+    .travel-section-cards p {
+        max-width: 100%;
+    }
+}
+
 .photo_section{
     width: 375px;
     height: 752px;
@@ -192,3 +290,41 @@ ul {list-style-type: none;}
 .photo_gallery_mount { grid-area: 1 / 2 / 2 / 3; }
 .photo_gallery_man { grid-area: 2 / 2 / 5 / 3; }
 .photo_gallery_sky { grid-area: 5 / 2 / 7 / 3; }
+
+.Vid5{
+    width: 375px;
+    height: 723px;
+    background-color: #010A20;
+    opacity: 0.8;
+}
+
+.cotainer_video5_photo{
+    width: 314;
+    height: 176;
+    top: 5953px;
+    left: 30px;
+    border-radius: 5px;
+    
+}
+
+.cotainer_video5{
+    margin: 30px;
+
+}
+
+.footer{
+    width: 375px;
+    height: 723px;
+    flex-shrink: 0;
+    background: #010A20;
+}
+
+.footer_about{
+    display: inline-flex;
+    height: 659px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    flex-shrink: 0;    
+}
