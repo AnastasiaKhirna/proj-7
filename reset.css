@@ -5,7 +5,9 @@
 }
 
 body{
-    background-color: #898989;
+    background-color: #5c5555;
+    margin: 0 auto;
+    max-width: 375px;
 }
 
 ul{

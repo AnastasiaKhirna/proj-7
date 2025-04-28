@@ -1,8 +1,4 @@
 
-body{
-    margin: 0 auto;
-    max-width: 375px;
-}
 
 .hero {
     padding-top: 48px;
@@ -143,7 +139,8 @@ body{
 
 
 .articles {
-    margin: 0;
+    margin: 0 auto;
+    max-width: 375px;
     font-family: Arial, sans-serif;
     background-color: #0b1d30;
     color: #ffffff;
@@ -159,15 +156,8 @@ body{
 }
 
 .travel-section-cards li {
-    display: flex;
-    align-items: center;
+    margin-top: 30px;
     margin-bottom: 100px ;
-    gap: 50px;
-    flex-wrap: wrap;
-}
-
-.travel-section-cards li:nth-child(even) {
-    flex-direction: row-reverse;
 }
 
 
@@ -179,7 +169,6 @@ body{
 }
 
 .travel-section-cards h2 {
-    text-align: left;
     font-size: 28px;
     margin-bottom: 20px;
 }
@@ -193,22 +182,15 @@ body{
 }
 
 .learn-more {
-    display: flex;
-    width: 314px;
-    height: 72px;
+    width: 100%;
     padding: 16px 24px;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-    padding: 12px 24px;
     background-color: #ff385c;
     color: #fff;
     border: none;
     border-radius:32px;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 700;
     cursor: pointer;
-    transition: - 0.3s;
 }
 
 .learn-more:hover {
@@ -219,7 +201,6 @@ body{
     .travel-section-cards li {
         align-items: center;
         flex-direction: column;
-        text-align: center;
     }
 
     .travel-section-cards img {
@@ -286,6 +267,31 @@ body{
 
 
 
+.map{
+    width: 375px;
+    height: 741px;
+    background: #ffffff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-image: url(./img.background/map_bg_up.svg);
+    background-repeat: no-repeat;
+}
+
+.conteiner_map{
+    margin: 30px;
+}
+
+.container_map_title {
+    width: 314px;
+    color: #000;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.15;
+}
 
 
 
@@ -356,7 +362,6 @@ body{
 
 
 
-
 .photo_section{
     width: 375px;
     height: 752px;
@@ -396,24 +401,20 @@ body{
 }
 
 .conteiner_photos{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(6, 1fr);
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
 }
 
-.photo_gallery_ppl { grid-area: 1 / 1 / 4 / 2; }
-.photo_gallery_ocean { grid-area: 4 / 1 / 5 / 2; }
-.photo_gallery_volcano { grid-area: 5 / 1 / 7 / 2; }
-.photo_gallery_mount { grid-area: 1 / 2 / 2 / 3; }
-.photo_gallery_man { grid-area: 2 / 2 / 5 / 3; }
-.photo_gallery_sky { grid-area: 5 / 2 / 7 / 3; }
 
 
 
 
-
+.getting_there{
+    width: 375px;
+    height: 1539px;
+    background: #DCE8F2;
+}
 
 
 
@@ -444,3 +445,4 @@ body{
     align-items: center;
     gap: 36px;
 }
+
