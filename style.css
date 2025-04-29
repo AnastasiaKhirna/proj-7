@@ -12,7 +12,6 @@
     }
 
 .btn_trevelling{
-    margin: 8px;
     color: rgba(255, 255, 255, 0.80);
     font-family: "DM Sans";
     text-align: center;
@@ -146,7 +145,6 @@
     color: #ffffff;
     padding: 50px 20px;
     max-width: 1200px;
-    margin: 0 auto;
 }
 
 .travel-section-cards ul {
@@ -171,6 +169,7 @@
 .travel-section-cards h2 {
     font-size: 28px;
     margin-bottom: 20px;
+    margin-top: 30px;
 }
 
 .travel-section-cards p {
@@ -238,12 +237,6 @@
     background-image: url(./img.background/ifan-bima-B04Xpnu5JQ4-unsplash\ 1.png);
 }
 
-.count_title{
-
-}
-.by_the_numbers{
-}
-
 .title_by_the_numbers{
     display: flex;
     width: 314px;
@@ -253,9 +246,6 @@
     flex-shrink: 0;
 }
 
-.by_the_numbers_list_item{
-
-}
 
 .picture_explore_our_secrets_1{
     display: none;
@@ -267,17 +257,18 @@
 
 
 
-.map{
+
+.map {
     width: 375px;
     height: 741px;
     background: #ffffff;
     position: relative;
     display: flex;
     flex-direction: column;
-    background-image: url(./img.background/map_bg_up.svg);
+    background-image: url(./img.background/map_bg_up.svg),
+    url(./img.background/map_bg_down.svg);
     background-repeat: no-repeat;
 }
-
 .conteiner_map{
     margin: 30px;
 }
@@ -293,20 +284,51 @@
     line-height: 1.15;
 }
 
+.container_map_text{
+    margin-top: 20px;
+    color: #6F7787;
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5; 
+    letter-spacing: 0.5px;
+}
+
+.learn-more_btn{
+    margin-top: 63px;
+    display: flex;
+    width: 314px;
+    height: 73px;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    border-radius: 122px;
+    border: none;
+    background: #DD2242;
+    color: #FFF;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+
 
 
 
 .Vid5{
-    margin-top: 83px;
-    width: 375px;
+
     height: 1451px;
     background-image: url(./img.background/hugo-matilla-EFuCATqfblI-unsplash\ 1.png);
     background-color: #010A20;
 }
 
-.cotainer_video5{
-    margin-top: 80px;
-}
 
 .video5{
     display: flex;
@@ -360,6 +382,20 @@
 
 
 
+.first h2{
+    margin-top: 50px;
+    color: #010A20;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.15;
+}
+
+
+
+
 
 
 .photo_section{
@@ -371,13 +407,12 @@
 }
 
 .photo_gallery_main_title{
-    margin-top: 20px;
     margin: 0 auto;
     width: fit-content;
     display: flex;
     width: 314px;
     height: 52px;
-    flex-direction: column;
+    align-items: center;
     justify-content: center;
     color: #010A20;
     text-align: center;
@@ -385,6 +420,7 @@
     font-size: 40px;;
     line-height: 1.5;
 }
+
 .photo_gallery_title_info{
     margin: 30px;
     width: 314px;
@@ -420,10 +456,10 @@
 
 
 
+
 .footer{
     width: 375px;
     height: 723px;
-    flex-shrink: 0;
     background: #010A20;
 }
 
@@ -432,17 +468,15 @@
     color: #fff;
 }
 
+
 .footer_about_item_icons{
+    display: inline;
     width: 189.772px;
     height: 30.987px;
 }
 
 .footer_about{
     display: inline-flex;
-    height: 659px;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 36px;
 }
 
