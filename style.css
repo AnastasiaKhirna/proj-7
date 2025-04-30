@@ -215,7 +215,6 @@
 
 
 
-
 .explore_our_secrets h2{
     display: flex;
     width: 314px;
@@ -230,14 +229,40 @@
     line-height: 1.15;
 }
 
-
 .explore_our_secrets{
     width: 375px;
-    height: 2063px;
+    height: 2000px;
     background-image: url(./img.background/ifan-bima-B04Xpnu5JQ4-unsplash\ 1.png);
 }
 
-.title_by_the_numbers{
+.count_title h2{
+    display: flex;
+    width: 314px;
+    height: 52px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.15;
+}
+
+.count_title p{
+    color:#E0E0E0;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5; 
+    letter-spacing: 0.5px;
+}
+
+.by_the_numbers_down{
     display: flex;
     width: 314px;
     height: 52px;
@@ -246,12 +271,34 @@
     flex-shrink: 0;
 }
 
-
 .picture_explore_our_secrets_1{
     display: none;
 }
 .picture_explore_our_secrets_3{
     display: none;
+}
+
+.by_the_numbers_list_item h2{
+    color: #DD2242;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.15;
+}
+
+.by_the_numbers_list_item p{
+    width: 314px;
+    height: 70.229px;
+    color:  #E0E0E0;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
 }
 
 
@@ -331,11 +378,13 @@
 
 
 .video5{
+    margin-top: 40px;
     display: flex;
     justify-content: center;
 }
 
 .video5-title h2 {
+    margin-bottom: 50px;
     color:#FFF;
     text-align: center;
     font-family: "DM Sans";
@@ -345,12 +394,14 @@
     line-height: 1.15;
 }
 
+
 .cotainer_video5_photo_main{
     margin: 20px auto;
 }
 
 .cotainer_video5 h3{
     margin: 5px;
+    margin-top: 40px;
     color:  #FFF;
     text-align: center;
     font-family: "DM Sans";
@@ -365,6 +416,7 @@
 
 .cotainer_video5{
     margin: 31px;
+    margin-bottom: 40px;
     color: #FFF;
     text-align: center;
     font-family: "DM Sans";
@@ -378,19 +430,6 @@
     margin: 20px;
     height: 192;
     border-radius: 10px;
-}
-
-
-
-.first h2{
-    margin-top: 50px;
-    color: #010A20;
-    text-align: center;
-    font-family: "DM Sans";
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.15;
 }
 
 
@@ -448,9 +487,72 @@
 
 .getting_there{
     width: 375px;
-    height: 1539px;
+    height: 1000px;
     background: #DCE8F2;
 }
+
+.first h2{
+    margin-top: 50px;
+    color: #010A20;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.15;
+}
+
+.main_title_get_here{
+    color: #010A20;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.15; 
+}
+
+.get-here-numbers{
+    margin: 13px;
+    color: #010A20;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5; 
+    color: rgba(21, 20, 57, 0.40);
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+.show_more_btn{
+    color: var(--Main-Red, #DD2242);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.title_get_here{
+    color: var(--Blue---Background, #010A20);
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5; /
+}
+
 
 
 
