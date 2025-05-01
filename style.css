@@ -200,7 +200,7 @@
     .travel-section-cards li {
         align-items: center;
         flex-direction: column;
-    }
+    }а
 
     .travel-section-cards img {
         width: 100%;
@@ -300,7 +300,6 @@
     line-height: 1.5;
     letter-spacing: 0.5px;
 }
-
 
 
 
@@ -557,11 +556,25 @@
 
 
 
+.conteiner_footer{
+    width: 314px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 .footer{
     width: 375px;
-    height: 723px;
+    padding: 155px 0 85px 0;
     background: #010A20;
+    height: 659px;
+
+}
+
+.logo_footer{
+    margin-bottom: 36px;
 }
 
 .footer a {
@@ -569,15 +582,36 @@
     color: #fff;
 }
 
-
 .footer_about_item_icons{
-    display: inline;
-    width: 189.772px;
     height: 30.987px;
+    margin: 36px 0;
+    display: flex;
+    justify-content:center;
+    gap: 48px;
+}
+
+.footer_img{
+    display: block;
 }
 
 .footer_about{
-    display: inline-flex;
+    color:  #FFF;
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    row-gap: 36px;
+    font-family: "DM Sans";
+    font-size: 22.943px;
+    font-weight: 700;
+    line-height: 1.15; 
+    letter-spacing: 0.637px;
 }
 
+.copyright{
+    color: #FFF;
+    font-family: "DM Sans";
+    font-size: 23.241px;
+    font-weight: 700;
+    line-height: 1.15; 
+    letter-spacing: 0.6px;
+}
