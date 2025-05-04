@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #817878;
+
     margin: 0 auto;
     max-width: 375px;
 }
@@ -15,7 +15,7 @@ ul{
 }
 
 a{
-    color: inherit;
+
     text-decoration: none;
 } */
 
@@ -27,7 +27,8 @@ a{
 }
 
 body {
-    font-family: "DM Sans", serif;
+    background-color: #817878;
+    font-family: "DM Sans", "Arial", "sans-serif";
 }
 
 img {
@@ -41,10 +42,7 @@ ul {
 }
 
 a {
+    color: inherit;
     text-decoration: none;
     display: block;
-}
-
-h1, h2, h3{
-    font-weight: 400;
 }

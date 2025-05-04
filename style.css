@@ -1,15 +1,19 @@
 
 
 .hero {
-    padding-top: 48px;
     min-width: 314px;
     background-image: 
     linear-gradient(rgba(0,0,0,0.31), rgba(0,0,0,0.29)),
-    url(./img.background/bg_s1.jpg);
+    url(./img.background/bg_s1.png);
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
-    }
+}
+
+.container_hero{
+    margin: 0 auto;
+    width: 314px;
+}
 
 .btn_trevelling{
     color: rgba(255, 255, 255, 0.80);
@@ -39,9 +43,11 @@
 }
 
 .header_nav {
+    margin-top: 30px;
     display: inline;
     padding: 10px;
 }
+
 .nav{
     display: flex;
     justify-content: end;
@@ -59,7 +65,7 @@
     width: 30px;
     height: 25px;
 }
-.container_hero {  
+.container_hero_info {  
     margin: 30px;
     color: #FFF;
     font-family: 'Roboto', sans-serif;
@@ -139,16 +145,12 @@
 
 .articles {
     margin: 0 auto;
-    max-width: 375px;
-    font-family: Arial, sans-serif;
     background-color: #0b1d30;
     color: #ffffff;
     padding: 50px 20px;
-    max-width: 1200px;
 }
 
 .travel-section-cards ul {
-    list-style: none;
     padding: 0;
     margin: 0;
 }
@@ -230,9 +232,9 @@
 }
 
 .explore_our_secrets{
-    width: 375px;
     height: 2000px;
-    background-image: url(./img.background/ifan-bima-B04Xpnu5JQ4-unsplash\ 1.png);
+    background-image: url(./img.background/eps_bg.jpg);
+    background-repeat: no-repeat;
 }
 
 .count_title h2{
@@ -305,25 +307,27 @@
 
 
 .map {
-    width: 375px;
     height: 741px;
     background: #ffffff;
     position: relative;
-    display: flex;
-    flex-direction: column;
     background-image: url(./img.background/map_bg_up.svg),
     url(./img.background/map_bg_down.svg);
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
 }
+
 .conteiner_map{
-    margin: 30px;
+    margin: 0 auto 30px auto;
+    width: 314px;
 }
 
 .container_map_title {
-    width: 314px;
     color: #000;
     text-align: center;
-    font-family: "DM Sans";
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
@@ -368,10 +372,17 @@
 
 
 .Vid5{
-
     height: 1451px;
-    background-image: url(./img.background/hugo-matilla-EFuCATqfblI-unsplash\ 1.png);
+    display: block;
+    flex-direction: column;
+    background-image: url(./img.background/hugo-matilla-EFuCATqfblI-unsplash\ 1\ \(1\).png);
     background-color: #010A20;
+    background-repeat: no-repeat;
+}
+
+.container_video5{
+    width: 314px;
+    margin: 0 auto;
 }
 
 
@@ -403,6 +414,7 @@
     color:  #FFF;
     text-align: center;
     font-family: "DM Sans";
+    font-weight: 700;
     font-size: 22px;
     line-height: 1.5;
 }
@@ -410,6 +422,8 @@
 .video_list_item p{
     margin: 4px;
     opacity: 0.7;
+    text-align: center;
+    height: 106.982px;
 }
 
 .cotainer_video5{
@@ -432,29 +446,33 @@
 
 
 
-
-
-
 .photo_section{
     width: 375px;
+    margin: 0 auto;
     height: 752px;
     flex-shrink: 0;
     background: #FFF;
-    width: fit-content;
+
+}
+
+.conteiner_photos_gellary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .photo_gallery_main_title{
-    margin: 0 auto;
     width: fit-content;
     display: flex;
     width: 314px;
     height: 52px;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     color: #010A20;
     text-align: center;
     font-family: "DM Sans";
-    font-size: 40px;;
+    font-size: 40px;
     line-height: 1.5;
 }
 
@@ -473,6 +491,7 @@
 }
 
 .conteiner_photos{
+    margin: 12px;
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -482,8 +501,12 @@
 
 
 
+.conteiner2{
+    width: 314px;
+    margin: 0 auto;
+}
+
 .getting_there{
-    width: 375px;
     height: 1000px;
     background: #DCE8F2;
 }
@@ -565,11 +588,9 @@
 
 
 .footer{
-    width: 375px;
     padding: 155px 0 85px 0;
     background: #010A20;
     height: 659px;
-
 }
 
 .logo_footer{
