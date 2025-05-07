@@ -130,6 +130,7 @@
 
 
 
+
 .articles  > .container{
     display: flex;
     flex-direction: column;
@@ -329,6 +330,7 @@
 .map > .container{
     margin: 0 auto 30px auto;
     width: 314px;
+    padding: 171px 0 116px 0;
 }
 
 .container_map_title {
@@ -346,7 +348,6 @@
     font-family: "DM Sans";
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
     line-height: 1.5; 
     letter-spacing: 0.5px;
 }
@@ -367,7 +368,6 @@
     text-align: center;
     font-family: "DM Sans";
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
     line-height: 1.5;
 }
@@ -394,6 +394,7 @@
 
 .video5-title h2 {
     margin-bottom: 50px;
+    padding-top: 83px;
     color:#FFF;
     text-align: center;
     font-family: "DM Sans";
@@ -440,6 +441,9 @@
     border-radius: 10px;
 }
 
+
+
+
 .photo_section{
     background: #ffffff;
 }
@@ -451,7 +455,7 @@
 }
 
 .photo_gallery_main_title{
-    width: fit-content;
+    padding: 32px 31px 10px;
     display: flex;
     width: 314px;
     flex-direction: column;
@@ -464,7 +468,7 @@
 }
 
 .photo_gallery_title_info{
-    width: 314px;
+    padding: 10px 0 35px;
     display: flex;
     justify-content: center;
     color: #6F7787;
