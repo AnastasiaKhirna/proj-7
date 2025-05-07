@@ -1,13 +1,17 @@
 
+.header > .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .header {
-    min-width: 314px;
     background-image: 
     linear-gradient(rgba(0,0,0,0.31), rgba(0,0,0,0.29)),
     url(./img.background/bg_s1.png);
     background-repeat: no-repeat;
     background-position-x: center;
-    background-position-y: center;
+
 }
 
 .btn_trevelling{
@@ -32,7 +36,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 30px;
 }
 
 .header_nav {
@@ -44,20 +47,17 @@
 .nav{
     display: flex;
     justify-content: end;
-    flex-wrap: wrap;
+    align-items: center;
 }
 .nav_item{
     padding: 15px;
+    transform: translateY(-50%);
 }
-
 
 .menu_header_burger {
     display: none;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 30px;
-    height: 25px;
 }
+
 .container_hero_info {  
     margin: 30px;
     color: #FFF;
@@ -71,40 +71,35 @@
     max-width: 210px;
     align-items: center;
     height: 115px;
-    border: 1px solid #000;
     margin: 32px;
     list-style-type: none;
     color: #FFF;
     font-family: "DM Sans";
     font-size: 16px;
-    font-style: normal;
     line-height: 0.4; 
-    letter-spacing: 0.5px;
+
 }
 
 .title_here_count{
     margin-top: 89px;
+    padding-top: 15px;
 }
 
 
 .title_here_count_item_numders{
-    width: 32.017px;
-    height: 19px;
-    margin: 4px;
-    padding: 8px;
+    padding: 10px;
     color: #DD2242;
     font-family: "Roboto";
     font-size: 16px;
     font-weight: 900;
-    text-transform: uppercase;
 }
+
 .title_here_count_item_text{
     color: #939393;
     font-family: "DM Sans";
     font-size: 16px;
     font-weight: 700;
     line-height: 1.5;
-    font-feature-settings: 'liga' off, 'clig' off;
     letter-spacing: 0.5px;
 }
 
@@ -115,26 +110,31 @@
 .h1_hero_title{
     margin: 10px;
     width: 314px;
-    height: 126px;
+    height: 125px;
     flex-shrink: 0;
     color: #FFF;
     font-family: "Roboto";
     font-size: 58.152px;
-    font-style: normal;
     font-weight: 900;
     line-height: 1.2;
-    text-transform: uppercase;
 }
+
 .bg_black{
     width: 314px;
     height: 472px;
-    opacity: 0.6;
-    background: #000;
+    background: rgba(0, 0, 0, 0.6);;
 }
 
 
 
 
+
+
+.articles  > .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .articles {
     margin: 0 auto;
@@ -165,6 +165,11 @@
     font-size: 28px;
     margin-bottom: 20px;
     margin-top: 30px;
+    font-family: "DM Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.15;
 }
 
 .travel-section-cards p {
@@ -178,7 +183,7 @@
 .learn-more {
     width: 100%;
     padding: 16px 24px;
-    background-color: #ff385c;
+    background-color: #DD2242;
     color: #fff;
     border: none;
     border-radius:32px;
@@ -208,6 +213,17 @@
 }
 
 
+
+
+
+.explore_our_secrets > .photos_wrapper{
+    position: relative;
+}
+
+.explore_our_secrets > .photos_wrapper ::before{
+    content: '';
+    position: absolute;
+}
 
 
 .explore_our_secrets h2{
@@ -407,7 +423,6 @@
 
 .Vid5 > .coteiner{
     margin: 31px;
-    margin-bottom: 40px;
     color: #FFF;
     text-align: center;
     font-family: "DM Sans";
@@ -523,8 +538,6 @@
 
 
 .footer > .container{
-    width: 314px;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
