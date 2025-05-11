@@ -595,6 +595,10 @@
 
 
 
+
+
+
+
 @media (min-width: 1920px) {
     .header {
         object-fit: cover;
@@ -688,6 +692,12 @@
             url(./img.background/map_down.svg);
     }
 
+    .map_main_info{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
     .container_map_title {
         width: 614px;
         font-size: 42px;
@@ -697,5 +707,12 @@
     .container_map_text {
         font-size: 18px;
         line-height: 1.15;
+
+    }
+
+    .learn-more_btn {
+        display: block;
+        width: 210px;
+        height: 64px;
     }
 }
