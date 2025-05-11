@@ -600,6 +600,11 @@
 
 
 @media (min-width: 1920px) {
+    .container {
+        width: 1278px;
+    }
+
+
     .header {
         object-fit: cover;
     }
@@ -616,9 +621,13 @@
         font-size: 18px;
     }
 
-    .menu_header {}
+}
 
-
+/* articles */
+@media (min-width: 1920px) {
+    .container {
+        width: 1280px;
+    }
 
     .articles_list_card {
         display: flex;
@@ -651,8 +660,13 @@
         padding: 16px 24px;
     }
 
+}
 
-
+/* eos */
+@media (min-width: 1920px) {
+    .container {
+        width: 1278px;
+    }
 
     .by_the_numbers {
         display: flex;
@@ -685,21 +699,29 @@
         padding-bottom: 230px;
     }
 
+}
 
+/* map */
+@media (min-width: 1920px) {
 
     .map {
         background-image: url(./img.background/map_up.svg),
             url(./img.background/map_down.svg);
     }
 
-    .map_main_info{
+    .map_main_info {
+        display: flex;
+        justify-content: center;
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
 
-    .container_map_title {
+    .map>.container {
         width: 614px;
+    }
+
+    .container_map_title {
         font-size: 42px;
         line-height: 1.2;
     }
@@ -707,12 +729,72 @@
     .container_map_text {
         font-size: 18px;
         line-height: 1.15;
-
     }
 
     .learn-more_btn {
         display: block;
         width: 210px;
         height: 64px;
+    }
+
+}
+
+/* vid */
+@media (min-width: 1920px) {
+    .container {
+        width: 1278px;
+    }
+
+    .Vid5>.container {
+        width: 1278px;
+    }
+
+    .video_list {
+        display: flex;
+        gap: 10px;
+        padding: 125px;
+        padding-bottom: 255px;
+    }
+
+    .video_list picture {
+        float: left;
+        width: 233px;
+        margin-right: 42px;
+    }
+
+    .video5-title {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .video5-title a{
+        
+    }
+
+    .video5-title h2 {
+        width: 1056px;
+        display: block;
+        justify-content: center;
+        font-size: 42px;
+        line-height: 1.19;
+    }
+
+    .cotainer_video5 h3 {
+        font-size: 18px;
+        text-align: left;
+        position: relative;
+        bottom: 40px        
+    }
+
+    .video_list_item p {
+        text-align: left;
+        font-size: 18px;
+        color: #ffff;
+        opacity: 0.7;
+        position: relative;
+        bottom: 30px;
     }
 }
