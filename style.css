@@ -254,6 +254,10 @@
     background-position-y: center;
 }
 
+.bg_by_the_nums {
+    padding-top: 800px;
+}
+
 .by_the_numbers_list_item {
     display: flex;
     flex-direction: column;
@@ -267,6 +271,11 @@
 .picture_explore_our_secrets_3 {
     display: none;
 }
+
+.by_the_numbers_list_item_last {
+    padding-bottom: 70px;
+}
+
 
 .by_the_numbers_list_item h2 {
     color: #DD2242;
@@ -284,6 +293,10 @@
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.5px;
+}
+
+.first_list_item p {
+    text-align: center;
 }
 
 .first_list_item h2 {
@@ -308,6 +321,10 @@
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.5px;
+}
+
+.bg_by_the_nums_bg {
+    background:rgba(0, 0, 0, 0.9);
 }
 
 
@@ -598,12 +615,20 @@
 
 
 
-
+/* hero */
 @media (min-width: 1920px) {
     .container {
         width: 1278px;
     }
 
+    .header {
+        background-image:
+            linear-gradient(rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.29)),
+            url(./img.background/bg_s1.png);
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-size: cover;
+    }
 
     .header {
         object-fit: cover;
@@ -668,6 +693,21 @@
         width: 1278px;
     }
 
+    .explore_our_secrets {
+        background-size: cover;
+    }
+
+    .photos {
+        padding-top: 127px;
+    }
+
+    .photos h2 {
+        font-size: 50px;
+        white-space: nowrap;
+        display: flex;
+        text-align: center;
+    }
+
     .by_the_numbers {
         display: flex;
         justify-content: center;
@@ -685,18 +725,32 @@
         padding: 45px;
     }
 
+    .by_the_numbers_list_item h2 {
+        font-size: 42px;
+    }
+
     .by_the_numbers_list_item p {
         font-size: 18px;
         width: 340.611px;
         height: 70.229px;
     }
 
-    .by_the_numbers_list_item h2 {
-        font-size: 42px;
+    .first_list_item h2 {
+        white-space: nowrap;
+        font-size: 60px;
+    }
+
+    .explore_our_secrets>.bg_by_the_nums {
+        position: relative;
     }
 
     .bg_by_the_nums {
         padding-bottom: 230px;
+    }
+
+    .bg_by_the_nums_bg {
+        opacity: 0.9;
+        background: #020C21;
     }
 
 }
@@ -745,6 +799,17 @@
         width: 1278px;
     }
 
+    .Vid5 {
+        display: block;
+        flex-direction: column;
+        background-image: url(./img.background/hugo-matilla-EFuCATqfblI-unsplash\ 1\ \(1\).png);
+        background-color: #010A20;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: center;
+        background-size: cover;
+    }
+
     .Vid5>.container {
         width: 1278px;
     }
@@ -770,10 +835,6 @@
         text-align: center;
     }
 
-    .video5-title a{
-        
-    }
-
     .video5-title h2 {
         width: 1056px;
         display: block;
@@ -786,7 +847,7 @@
         font-size: 18px;
         text-align: left;
         position: relative;
-        bottom: 40px        
+        bottom: 40px
     }
 
     .video_list_item p {
