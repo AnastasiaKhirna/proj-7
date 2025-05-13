@@ -324,7 +324,7 @@
 }
 
 .bg_by_the_nums_bg {
-    background:rgba(0, 0, 0, 0.9);
+    background: rgba(0, 0, 0, 0.9);
 }
 
 
@@ -503,6 +503,8 @@
     background: #DCE8F2;
 }
 
+
+
 .first h2 {
     margin-top: 50px;
     color: #010A20;
@@ -514,6 +516,7 @@
 }
 
 .main_title_get_here {
+    padding: 29px 0 45px;
     color: #010A20;
     text-align: center;
     font-family: "DM Sans";
@@ -523,6 +526,7 @@
 }
 
 .get_here_numbers {
+    padding-bottom: 73px;
     color: #010A20;
     text-align: center;
     font-size: 22px;
@@ -530,6 +534,11 @@
     line-height: 1.5;
 }
 
+.get_here_numbers p {
+    padding-top: 13px;
+    color: rgba(21, 20, 57, 0.40);
+    font-size: 16px;
+}
 
 .show_more_btn {
     color: #DD2242;
@@ -541,6 +550,7 @@
 }
 
 .title_get_here {
+    padding-top: 18px;
     color: #010A20;
     text-align: center;
     font-family: "DM Sans";
@@ -549,6 +559,12 @@
     font-weight: 700;
     line-height: 1.5;
 }
+
+.get_here_numbers li {
+    padding-bottom: 32px;
+}
+
+
 
 
 
@@ -564,7 +580,6 @@
 .footer {
     padding: 155px 0 85px 0;
     background: #010A20;
-    height: 659px;
 }
 
 .logo_footer {
@@ -858,4 +873,26 @@
         position: relative;
         bottom: 30px;
     }
+}
+
+/* footer */
+@media (min-width: 1920px) {
+
+    .footer {
+        padding: 48px 153px 31px 70px;
+        background: #010A20;
+        flex-direction: row;
+    }
+
+    .footer>.container {
+        display: inline;
+    }
+
+    .footer_about {
+        display: flex;
+        flex-direction: row;
+        font-size: 18px;
+    }
+
+
 }
