@@ -881,6 +881,7 @@
         padding: 48px 153px 31px 70px;
         background: #010A20;
         flex-direction: row;
+        justify-content: space-between;
     }
 
     .footer>.container {
@@ -893,5 +894,8 @@
         font-size: 18px;
     }
 
+    .footer_about_item_icons{
+        margin: 0;
+    }
 
 }
