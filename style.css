@@ -882,10 +882,18 @@
         background: #010A20;
         flex-direction: row;
         justify-content: space-between;
+        /* display: flex;
+        justify-content: center; */
     }
 
-    .footer>.container {
+    .footer > .container {
         display: inline;
+    }
+
+    .tooter_info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .footer_about {
@@ -894,8 +902,25 @@
         font-size: 18px;
     }
 
-    .footer_about_item_icons{
+    .footer_about li {
+        padding: 18px;
+    }
+
+    .logo_footer img {
+        display: block;
+    }
+
+    .footer_about_item_icons {
         margin: 0;
+        position: relative;
+        right: 50px;
+        justify-content: end;
+    }
+
+    .footer_links {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
     }
 
 }
