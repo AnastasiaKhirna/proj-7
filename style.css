@@ -881,20 +881,20 @@
         padding: 48px 153px 31px 70px;
         background: #010A20;
         flex-direction: row;
-        justify-content: space-between;
-        /* display: flex;
-        justify-content: center; */
+        /* justify-content: space-between; */
     }
 
     .footer > .container {
-        display: inline;
+        /* display: inline; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
-    .tooter_info {
+    .tooter_info { 
         display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+        justify-content: start;
+    } 
 
     .footer_about {
         display: flex;
@@ -914,13 +914,12 @@
         margin: 0;
         position: relative;
         right: 50px;
-        justify-content: end;
     }
 
     .footer_links {
         display: flex;
         flex-direction: row;
-        justify-content: end;
+        /* justify-content: end; */
     }
 
 }
