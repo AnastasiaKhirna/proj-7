@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proj-7</title>
-    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -275,7 +275,7 @@
                 </div>
                 <div class="container_photos">
                     <div class="photos_wrapper">
-                        <a href="#">
+                        <a href="#" style="grid-area: a">
                             <picture class="photo_gallery_ppl">
                                 <source srcset="./img.gallery6/ppl@1.avif" type="image/avif">
                                 <source srcset="./img.gallery6/ppl@1.jpg" type="image/jpg">
@@ -283,7 +283,7 @@
                                 <img src="./img.gallery6/ppl@1.avif" alt="people">
                             </picture>
                         </a>
-                        <a href="#">
+                        <a href="#" style=" grid-area: b; ">
                             <picture class="photo_gallery_ocean">
                                 <source srcset="./img.gallery6/ocean@1.avif" type="image/avif">
                                 <source srcset="./img.gallery6/ocean@1.jpg" type="image/jpg">
@@ -291,7 +291,7 @@
                                 <img src="./img.gallery6/ocean@1.avif" alt="ocean">
                             </picture>
                         </a>
-                        <a href="#">
+                        <a href="#" style="grid-area: c; ">
                             <picture class="photo_gallery_man">
                                 <source srcset="./img.gallery6/man@1.avif" type="image/avif">
                                 <source srcset="./img.gallery6/man@1.jpg" type="image/jpg">
@@ -301,7 +301,7 @@
                         </a>
                     </div>
                     <div class="photos__wrapper">
-                        <a href="#">
+                        <a href="#" style="grid-area: d;">
                             <picture class="photo_gallery_volcano">
                                 <source srcset="./img.gallery6/volcano.avif" type="image/avif">
                                 <source srcset="./img.gallery6/volcano.jpg" type="image/jpg">
@@ -309,7 +309,7 @@
                                 <img src="./img.gallery6/volcano.avif" alt="volcano">
                             </picture>
                         </a>
-                        <a href="#">
+                        <a href="#" style="grid-area:e;">
                             <picture class="photo_gallery_mount">
                                 <source srcset="./img.gallery6/mount@1.avif" type="image/avif">
                                 <source srcset="./img.gallery6/mount@1.jpg" type="image/jpg">
@@ -317,7 +317,7 @@
                                 <img src="./img.gallery6/mount@1.avif" alt="mount">
                             </picture>
                         </a>
-                        <a href="#">
+                        <a href="#" style="grid-area:f;">
                             <picture class="photo_gallery_sky">
                                 <source srcset="./img.gallery6/sky.avif" type="image/avif">
                                 <source srcset="./img.gallery6/sky.jpg" type="image/jpg">
@@ -328,59 +328,76 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> 
         <section class="getting_there">
             <div class="container">
                 <h2 class="main_title_get_here">Getting there</h2>
                 <ul class="get_here_numbers">
-                    <li class="first">
+                    <li class="get_here_numbers-item first">
                         <picture>
-                            <source srcset="./img.gethere7/first.svg" type="image/svg">
-                            <img src="./img.gethere7/first.svg" alt="1">
+                            <source srcset="./img.gethere7/first.svg" type="image/svg" />
+                            <img src="./img.gethere7/first.svg" alt="1" />
                         </picture>
                         <h3 class="title_get_here">Bookings your flights</h3>
-                        <p>Lorem ipsum dolor set,,,,</p>
-                        <a href="#">
-                            <span class="show_more_btn">Show more</span>
-                        </a>
+                        <p class="small-text">Lorem ipsum dolor set,,,,</p>
+                        <p class="show_more_btn">Show more</p>
+                        <p class="getting_there-full-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus dapibus mauris in lectus tempus, eget tincidunt lacus
+                            varius. Sed euismod orci dictum faucibus malesuada. Praesent sed
+                            eros tincidunt, viverra neque auctor, lobortis enim.
+                        </p>
                     </li>
-                    <li class="second">
+                    <li class="get_here_numbers-item second">
                         <picture>
-                            <source srcset="./img.gethere7/second.svg" type="image/svg">
-                            <img src="./img.gethere7/second.svg" alt="2">
+                            <source srcset="./img.gethere7/second.svg" type="image/svg" />
+                            <img src="./img.gethere7/second.svg" alt="2" />
                         </picture>
                         <h3 class="title_get_here">Choosing your hotel</h3>
-                        <p>Lorem ipsum dolor set,,,,</p>
-                        <a href="#">
-                            <span class="show_more_btn">Show more</span>
-                        </a>
+                        <p class="small-text">Lorem ipsum dolor set,,,,</p>
+                        <p class="show_more_btn">Show more</p>
+                        <p class="getting_there-full-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus dapibus mauris in lectus tempus, eget tincidunt lacus
+                            varius. Sed euismod orci dictum faucibus malesuada. Praesent sed
+                            eros tincidunt, viverra neque auctor, lobortis enim.
+                        </p>
                     </li>
-                    <li class="third_photo">
-                        <picture>
-                            <source srcset="./img.gethere7/bike.avif" type="image/avif">
-                            <source srcset="./img.gethere7/bike.jpg" type="image/jpg">
-                            <source srcset="./img.gethere7/bike.webp" type="image/webp">
-                            <img src="./img.gethere7/bike.avif" alt="bike">
-                        </picture>
-                        <p>Lorem ipsum dolor set,,,,</p>
-                        <a href="#">
-                            <span class="show_more_btn">Show more</span>
-                        </a>
-                    </li>
-                    <li class="third">
-                        <a href="#">
+                    <li class="get_here_numbers-item third_photo">
+                        <a href="https://unsplash.com/photos/3Hp9UgGwhIQ">
                             <picture>
-                                <source srcset="./img.gethere7/third.svg" type="image/svg">
-                                <img src="./img.gethere7/third.svg" alt="3">
+                                <source srcset="./img.gethere7/bike.avif" type="image/avif" />
+                                <source srcset="./img.gethere7/bike.jpg" type="image/jpg" />
+                                <source srcset="./img.gethere7/bike.webp" type="image/webp" />
+                                <img src="./img.gethere7/bike.avif" alt="bike" />
                             </picture>
                         </a>
+                        <p class="small-text">Lorem ipsum dolor set,,,,</p>
+                        <p class="show_more_btn">Show more</p>
+                        <div class="get_here_numbers-item_hidden-text">
+                            <h3 class="getting_there-extra-title">Travelling there</h3>
+                            <p class="getting_there-full-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Phasellus dapibus mauris in lectus tempus, eget tincidunt.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="get_here_numbers-item third">
+                        <picture>
+                            <source srcset="./img.gethere7/third.svg" type="image/svg" />
+                            <img src="./img.gethere7/third.svg" alt="3" />
+                        </picture>
                         <h3 class="title_get_here">Planning your experiences</h3>
-                        <p>Lorem ipsum dolor set,,,,</p>
-                        <a href="#">
-                            <span class="show_more_btn">Show more</span>
-                        </a>
+                        <p class="small-text">Lorem ipsum dolor set,,,,</p>
+                        <p class="show_more_btn">Show more</p>
+                        <p class="getting_there-full-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus dapibus mauris in lectus tempus, eget tincidunt lacus
+                            varius.
+                        </p>
                     </li>
                 </ul>
+                <button class="getting_there-button">Learn More</button>
             </div>
         </section>
     </main>
@@ -446,4 +463,4 @@
     <script src="/index.js"></script>
 </body>
 
-</html> 
+</html>
