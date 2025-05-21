@@ -2,26 +2,27 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Proj-7</title>
-    <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+        rel="stylesheet" />
 </head>
 
 <body>
-    </head>
-    <header class="header">
+    <header class="header" id="header">
         <div class="container">
             <div class="menu_header">
                 <a href="#">
-                    <source srcset="./img.hero1/Group12.webp" type="image/svg">
-                    <img src="./img.hero1/Group12.svg" alt="logo">
+                    <picture>
+                        <source srcset="./img.hero1/Group12.webp" type="image/svg" />
+                        <img src="./img.hero1/Group12.svg" alt="logo" />
+                    </picture>
                 </a>
                 <nav class="header_nav">
                     <ul class="menu_header_burger">
@@ -42,23 +43,27 @@
                         <li class="nav_item">
                             <a href="#">
                                 <picture>
-                                    <source srcset="./img.hero1/Vector.webp" type="image/svg">
-                                    <img src="./img.hero1/Vector.svg" alt="search">
+                                    <source srcset="./img.hero1/Vector.webp" type="image/svg" />
+                                    <img src="./img.hero1/Vector.svg" alt="search" />
                                 </picture>
                             </a>
                         </li>
                         <li class="nav_item">
                             <a href="#">
                                 <picture>
-                                    <source srcset="./img.hero1/Vector(1).svg" type="image/svg">
-                                    <img src="./img.hero1/Vector1.svg" alt="Menu icon">
+                                    <source srcset="./img.hero1/Vector(1).svg" type="image/svg" />
+                                    <img src="./img.hero1/Vector1.svg" alt="Menu icon" />
                                 </picture>
                             </a>
                         </li>
                     </ul>
                 </nav>
             </div>
-            <div class="container_hero_info">
+        </div>
+    </header>
+    <main>
+        <section class="hero" id="hero">
+            <div class="container container_hero_info">
                 <h1 class="h1_hero_title">EXPLORE INDONESIA</h1>
                 <button class="btn_trevelling">Start travelling</button>
                 <div class="bg_black">
@@ -67,34 +72,37 @@
                             <li class="title_here_count_item">
                                 <p class="title_here_count_item_numders">01</p>
                                 <h3 class="title_here_count_item_title">Title here</h3>
-                                <p class="title_here_count_item_text">Lorem ipsum dolor sit amet et amet ist ame.</p>
+                                <p class="title_here_count_item_text">
+                                    Lorem ipsum dolor sit amet et amet ist ame.
+                                </p>
                             </li>
                             <li class="title_here_count_item">
                                 <p class="title_here_count_item_numders">02</p>
                                 <h3 class="title_here_count_item_title">Title here</h3>
-                                <p class="title_here_count_item_text">Lorem ipsum dolor sit amet et amet ist ame.</p>
+                                <p class="title_here_count_item_text">
+                                    Lorem ipsum dolor sit amet et amet ist ame.
+                                </p>
                             </li>
                             <li class="title_here_count_item">
                                 <p class="title_here_count_item_numders">03</p>
                                 <h3 class="title_here_count_item_title">Title here</h3>
-                                <p class="title_here_count_item_text">Lorem ipsum dolor sit amet et amet ist ame.</p>
+                                <p class="title_here_count_item_text">
+                                    Lorem ipsum dolor sit amet et amet ist ame.
+                                </p>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <a href="#">
                     <picture>
-                        <source srcset="./img.hero1/palms@1.avif" type="image/avif">
-                        <source srcset="./img.hero1/palms@1.jpg" type="image/jpg">
-                        <source srcset="./img.hero1/palms@1.webp" type="image/webp">
-                        <img src="./img.hero1/palms@1.avif" alt="palms">
+                        <source srcset="./img.hero1/palms@1.avif" type="image/avif" />
+                        <source srcset="./img.hero1/palms@1.jpg" type="image/jpg" />
+                        <source srcset="./img.hero1/palms@1.webp" type="image/webp" />
+                        <img src="./img.hero1/palms@1.avif" alt="palms" />
                     </picture>
                 </a>
             </div>
-        </div>
-        </div>
-    </header>
-    <main>
+        </section>
         <section class="articles">
             <div class="container">
                 <ul class="travel-section-cards">
@@ -139,53 +147,60 @@
                     <h2>Explore Our Secrets</h2>
                     <a href="#">
                         <picture class="picture_explore_our_secrets_1">
-                            <source srcset="./img.articles2/palms.s2@1.avif" type="image/avif">
-                            <source srcset="./img.articles2/palms.s2@1.jpg" type="image/jpg">
-                            <source srcset="./img.articles2/palms.s2@1.webp" type="image/webp">
-                            <img src="./img.articles2/palms.s2@1.avif" alt="palms">
+                            <source srcset="./img.articles2/palms.s2@1.avif" type="image/avif" />
+                            <source srcset="./img.articles2/palms.s2@1.jpg" type="image/jpg" />
+                            <source srcset="./img.articles2/palms.s2@1.webp" type="image/webp" />
+                            <img src="./img.articles2/palms.s2@1.avif" alt="palms" />
                         </picture>
                     </a>
                     <a href="#">
                         <picture class="picture_explore_our_secrets_2">
-                            <source srcset="./img.articles2/palms.s2@1.avif" type="image/avif">
-                            <source srcset="./img.articles2/palms.s2@1.jpg" type="image/jpg">
-                            <source srcset="./img.articles2/palms.s2@1.webp" type="image/webp">
-                            <img src="./img.articles2/palms.s2@1.avif" alt="palms">
+                            <source srcset="./img.articles2/palms.s2@1.avif" type="image/avif" />
+                            <source srcset="./img.articles2/palms.s2@1.jpg" type="image/jpg" />
+                            <source srcset="./img.articles2/palms.s2@1.webp" type="image/webp" />
+                            <img src="./img.articles2/palms.s2@1.avif" alt="palms" />
                         </picture>
                     </a>
                     <a href="#">
                         <picture class="picture_explore_our_secrets_3">
-                            <source srcset="./img.articles2/palms.s2@1.avif" type="image/avif">
-                            <source srcset="./img.articles2/palms.s2@1.jpg" type="image/jpg">
-                            <source srcset="./img.articles2/palms.s2@1.webp" type="image/webp">
-                            <img src="./img.articles2/palms.s2@1.avif" alt="palms">
+                            <source srcset="./img.articles2/palms.s2@1.avif" type="image/avif" />
+                            <source srcset="./img.articles2/palms.s2@1.jpg" type="image/jpg" />
+                            <source srcset="./img.articles2/palms.s2@1.webp" type="image/webp" />
+                            <img src="./img.articles2/palms.s2@1.avif" alt="palms" />
                         </picture>
                     </a>
                 </div>
                 <div class="title_content_container">
                     <div class="bg_by_the_nums_bg">
                         <div class="bg_by_the_nums">
-                            <div class=" first_list_item">
+                            <div class="first_list_item">
                                 <h2>By The Numbers</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et
-                                    libero.Lorem
-                                    ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Fusce commodo magna et libero.Lorem ipsum dolor sit amet,
+                                    consectetur adipiscing elit.
+                                </p>
                             </div>
                             <ul class="by_the_numbers">
                                 <li class="by_the_numbers_list_item">
                                     <h2>100+</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et
-                                        libero.
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Fusce commodo magna et libero.
                                     </p>
                                 </li>
                                 <li class="by_the_numbers_list_item">
                                     <h2>43,000+</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo.</p>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Fusce commodo.
+                                    </p>
                                 </li>
-                                <li class="by_the_numbers_list_item by_the_numbers_list_item_last ">
+                                <li class="by_the_numbers_list_item by_the_numbers_list_item_last">
                                     <h2>30+</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce commodo magna et
-                                        libero.
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                        Fusce commodo magna et libero.
                                     </p>
                                 </li>
                             </ul>
@@ -197,9 +212,14 @@
         <section class="map">
             <div class="container">
                 <div class="map_main_info">
-                    <h2 class="container_map_title">Our hills and valleys are like nothing you’ve seen.</h2>
-                    <p class="container_map_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit
-                        amet magna commodo, tempus dolor sit amet, laoreet elit. Donec mauris tortor, elementum sed.</p>
+                    <h2 class="container_map_title">
+                        Our hills and valleys are like nothing you’ve seen.
+                    </h2>
+                    <p class="container_map_text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit
+                        amet magna commodo, tempus dolor sit amet, laoreet elit. Donec
+                        mauris tortor, elementum sed.
+                    </p>
                     <button class="learn-more_btn">Learn More</button>
                 </div>
             </div>
@@ -397,9 +417,12 @@
     </main>
     <footer class="footer">
         <div class="container">
-            <div class="footer_info">
+            <a class="footer_arrow" href="#hero">
+                <img src="./img. foot8/Group 9.svg" alt="arrow" />
+            </a>
+            <div class="tooter_info">
                 <a class="logo_footer" href="#">
-                    <img class="footer_img" src="./img. foot8/Group8.svg" alt="">
+                    <img class="footer_img" src="./img. foot8/Group8.svg" alt="" />
                 </a>
                 <ul class="footer_about">
                     <li class="footer_about_item">
@@ -447,7 +470,6 @@
                                     fill="white" />
                             </svg>
                         </a>
-                    </li>
                     </li>
                 </ul>
                 <p class="copyright">Copyright © 2019</p>

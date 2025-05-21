@@ -11,7 +11,7 @@ body {
     font-family: "DM Sans", "Arial", "sans-serif";
 }
 
-img {
+picture img {
     display: block;
     max-width: 100%;
     height: auto;
@@ -27,7 +27,11 @@ a {
     display: block;
 }
 
-.container{
+.container {
     width: 314px;
     margin: 0 auto;
+}
+
+button:hover {
+    box-shadow: 9px 8px 5px 0px rgba(216, 216, 216, 0.75);
 }
