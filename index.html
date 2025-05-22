@@ -12,6 +12,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -27,16 +28,16 @@
                 <nav class="header_nav">
                     <ul class="menu_header_burger">
                         <li class="menu_header_burger_item">
-                            <a href="#">destinations</a>
+                            <a href="#getting_there">destinations</a>
                         </li>
                         <li class="menu_header_burger_item">
-                            <a href="#">experiences</a>
+                            <a href="#explore_our_secrets">experiences</a>
                         </li>
                         <li class="menu_header_burger_item">
-                            <a href="#">about</a>
+                            <a href="#map">about</a>
                         </li>
                         <li class="menu_header_burger_item">
-                            <a href="#">gallery</a>
+                            <a href="#photo_section">gallery</a>
                         </li>
                     </ul>
                     <ul class="nav">
@@ -66,41 +67,39 @@
             <div class="container container_hero_info">
                 <h1 class="h1_hero_title">EXPLORE INDONESIA</h1>
                 <button class="btn_trevelling">Start travelling</button>
-                <div class="bg_black">
-                    <div class="title_here">
-                        <ul class="title_here_count">
-                            <li class="title_here_count_item">
-                                <p class="title_here_count_item_numders">01</p>
-                                <h3 class="title_here_count_item_title">Title here</h3>
-                                <p class="title_here_count_item_text">
-                                    Lorem ipsum dolor sit amet et amet ist ame.
-                                </p>
-                            </li>
-                            <li class="title_here_count_item">
-                                <p class="title_here_count_item_numders">02</p>
-                                <h3 class="title_here_count_item_title">Title here</h3>
-                                <p class="title_here_count_item_text">
-                                    Lorem ipsum dolor sit amet et amet ist ame.
-                                </p>
-                            </li>
-                            <li class="title_here_count_item">
-                                <p class="title_here_count_item_numders">03</p>
-                                <h3 class="title_here_count_item_title">Title here</h3>
-                                <p class="title_here_count_item_text">
-                                    Lorem ipsum dolor sit amet et amet ist ame.
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="hero-wraper">
+                    <ul class="title_here_count">
+                        <li class="title_here_count_item">
+                            <p class="title_here_count_item_numders">01</p>
+                            <h3 class="title_here_count_item_title">Title here</h3>
+                            <p class="title_here_count_item_text">
+                                Lorem ipsum dolor sit amet et amet ist ame.
+                            </p>
+                        </li>
+                        <li class="title_here_count_item">
+                            <p class="title_here_count_item_numders">02</p>
+                            <h3 class="title_here_count_item_title">Title here</h3>
+                            <p class="title_here_count_item_text">
+                                Lorem ipsum dolor sit amet et amet ist ame.
+                            </p>
+                        </li>
+                        <li class="title_here_count_item">
+                            <p class="title_here_count_item_numders">03</p>
+                            <h3 class="title_here_count_item_title">Title here</h3>
+                            <p class="title_here_count_item_text">
+                                Lorem ipsum dolor sit amet et amet ist ame.
+                            </p>
+                        </li>
+                    </ul>
+                    <a class="hero-picture-link" href="#">
+                        <picture class="hero-picture">
+                            <source srcset="./img.hero1/palms@1.avif" type="image/avif" />
+                            <source srcset="./img.hero1/palms@1.jpg" type="image/jpg" />
+                            <source srcset="./img.hero1/palms@1.webp" type="image/webp" />
+                            <img class="hero-picture" src="./img.hero1/palms@1.avif" alt="palms" />
+                        </picture>
+                    </a>
                 </div>
-                <a href="#">
-                    <picture>
-                        <source srcset="./img.hero1/palms@1.avif" type="image/avif" />
-                        <source srcset="./img.hero1/palms@1.jpg" type="image/jpg" />
-                        <source srcset="./img.hero1/palms@1.webp" type="image/webp" />
-                        <img src="./img.hero1/palms@1.avif" alt="palms" />
-                    </picture>
-                </a>
             </div>
         </section>
         <section class="articles">
@@ -141,75 +140,102 @@
                 </ul>
             </div>
         </section>
-        <section class="explore_our_secrets">
+        <section class="explore_our_secrets" id="explore_our_secrets">
             <div class="container title_content_container">
                 <div class="photos">
                     <h2>Explore Our Secrets</h2>
-                    <a href="#">
-                        <picture class="picture_explore_our_secrets_1">
-                            <source srcset="./img.articles2/palms.s2@1.avif" type="image/avif" />
-                            <source srcset="./img.articles2/palms.s2@1.jpg" type="image/jpg" />
-                            <source srcset="./img.articles2/palms.s2@1.webp" type="image/webp" />
-                            <img src="./img.articles2/palms.s2@1.avif" alt="palms" />
-                        </picture>
-                    </a>
-                    <a href="#">
-                        <picture class="picture_explore_our_secrets_2">
-                            <source srcset="./img.articles2/palms.s2@1.avif" type="image/avif" />
-                            <source srcset="./img.articles2/palms.s2@1.jpg" type="image/jpg" />
-                            <source srcset="./img.articles2/palms.s2@1.webp" type="image/webp" />
-                            <img src="./img.articles2/palms.s2@1.avif" alt="palms" />
-                        </picture>
-                    </a>
-                    <a href="#">
-                        <picture class="picture_explore_our_secrets_3">
-                            <source srcset="./img.articles2/palms.s2@1.avif" type="image/avif" />
-                            <source srcset="./img.articles2/palms.s2@1.jpg" type="image/jpg" />
-                            <source srcset="./img.articles2/palms.s2@1.webp" type="image/webp" />
-                            <img src="./img.articles2/palms.s2@1.avif" alt="palms" />
-                        </picture>
-                    </a>
-                </div>
-                <div class="title_content_container">
-                    <div class="bg_by_the_nums_bg">
-                        <div class="bg_by_the_nums">
-                            <div class="first_list_item">
-                                <h2>By The Numbers</h2>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Fusce commodo magna et libero.Lorem ipsum dolor sit amet,
-                                    consectetur adipiscing elit.
-                                </p>
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <picture class="explore_list_picture">
+                                        <img src="./img.articles2/palms,s2@1.jpg" alt="palm"
+                                            class="explore_list_picture" />
+                                    </picture>
+                                </a>
                             </div>
-                            <ul class="by_the_numbers">
-                                <li class="by_the_numbers_list_item">
-                                    <h2>100+</h2>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                        Fusce commodo magna et libero.
-                                    </p>
-                                </li>
-                                <li class="by_the_numbers_list_item">
-                                    <h2>43,000+</h2>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                        Fusce commodo.
-                                    </p>
-                                </li>
-                                <li class="by_the_numbers_list_item by_the_numbers_list_item_last">
-                                    <h2>30+</h2>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                        Fusce commodo magna et libero.
-                                    </p>
-                                </li>
-                            </ul>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <picture class="explore_list_picture">
+                                        <img src="./img.articles2/palms,s2@1.jpg" alt="palm"
+                                            class="explore_list_picture" />
+                                    </picture>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <picture class="explore_list_picture">
+                                        <img src="./img.articles2/palms,s2@1.jpg" alt="palm"
+                                            class="explore_list_picture" />
+                                    </picture>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <picture class="explore_list_picture">
+                                        <img src="./img.articles2/palms,s2@1.jpg" alt="palm"
+                                            class="explore_list_picture" />
+                                    </picture>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <picture class="explore_list_picture">
+                                        <img src="./img.articles2/palms,s2@1.jpg" alt="palm"
+                                            class="explore_list_picture" />
+                                    </picture>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <picture class="explore_list_picture">
+                                        <img src="./img.articles2/palms,s2@1.jpg" alt="palm"
+                                            class="explore_list_picture" />
+                                    </picture>
+                                </a>
+                            </div>
                         </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
                     </div>
+                </div>
+                <div class="bg_by_the_nums_bg">
+                    <div class="first_list_item">
+                        <h2>By The Numbers</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                            commodo magna et libero.Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit.
+                        </p>
+                    </div>
+                    <ul class="by_the_numbers">
+                        <li class="by_the_numbers_list_item">
+                            <h2>100+</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                                commodo magna et libero.
+                            </p>
+                        </li>
+                        <li class="by_the_numbers_list_item">
+                            <h2>43,000+</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+                                commodo.
+                            </p>
+                        </li>
+                        <li class="by_the_numbers_list_item by_the_numbers_list_item_last">
+                            <h2>30+</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.Fusce
+                                commodo magna et libero.
+                            </p>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </section>
-        <section class="map">
+        <section class="map" id="map">
             <div class="container">
                 <div class="map_main_info">
                     <h2 class="container_map_title">
@@ -280,11 +306,12 @@
                 </ul>
             </div>
         </section>
-        <section class="photo_section">
+        <section class="photo_section" id="photo_section">
             <div class="container">
                 <div class="photo_gallery_title">
                     <h2 class="photo_gallery_main_title">Photo Gallery</h2>
-                    <p class="photo_gallery_title_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    <p class="photo_gallery_title_info">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit.
                         Phasellus dapibus mauris in lectus tempus, eget tincidunt.</p>
                 </div>
                 <div class="container_photos">
@@ -343,7 +370,7 @@
                 </div>
             </div>
         </section>
-        <section class="getting_there">
+        <section class="getting_there" id="getting_there">
             <div class="container">
                 <h2 class="main_title_get_here">Getting there</h2>
                 <ul class="get_here_numbers">
@@ -418,7 +445,7 @@
     <footer class="footer">
         <div class="container">
             <a class="footer_arrow" href="#hero">
-                <img src="./img. foot8/Group 9.svg" alt="arrow" />
+                <img src="./img.background/arrow_fot.svg" alt="arrow" />
             </a>
             <div class="tooter_info">
                 <a class="logo_footer" href="#">
@@ -476,6 +503,9 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="/index.js"></script>
 </body>
 
