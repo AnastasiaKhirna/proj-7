@@ -72,6 +72,6 @@ const swiper = new Swiper(".swiper", {
     },
   },
   centredSlides: true,
-  spaceBetween: 30 + "px",
+  spaceBetween: 30,
   loop: true,
 });
